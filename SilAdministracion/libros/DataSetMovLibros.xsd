@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetMovLibros" targetNamespace="http://tempuri.org/DataSetMovLibros.xsd" xmlns:mstns="http://tempuri.org/DataSetMovLibros.xsd" xmlns="http://tempuri.org/DataSetMovLibros.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetMovLibros" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetMovLibros" msprop:Generator_UserDSName="DataSetMovLibros">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DtMovLibro" msprop:Generator_TableClassName="DtMovLibroDataTable" msprop:Generator_TableVarName="tableDtMovLibro" msprop:Generator_TablePropName="DtMovLibro" msprop:Generator_RowDeletingName="DtMovLibroRowDeleting" msprop:Generator_RowChangingName="DtMovLibroRowChanging" msprop:Generator_RowEvHandlerName="DtMovLibroRowChangeEventHandler" msprop:Generator_RowDeletedName="DtMovLibroRowDeleted" msprop:Generator_UserTableName="DtMovLibro" msprop:Generator_RowChangedName="DtMovLibroRowChanged" msprop:Generator_RowEvArgName="DtMovLibroRowChangeEvent" msprop:Generator_RowClassName="DtMovLibroRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdAlumno" msprop:Generator_ColumnVarNameInTable="columnIdAlumno" msprop:Generator_ColumnPropNameInRow="IdAlumno" msprop:Generator_ColumnPropNameInTable="IdAlumnoColumn" msprop:Generator_UserColumnName="IdAlumno" type="xs:int" minOccurs="0" />
+              <xs:element name="Ejemplar" msprop:Generator_ColumnVarNameInTable="columnEjemplar" msprop:Generator_ColumnPropNameInRow="Ejemplar" msprop:Generator_ColumnPropNameInTable="EjemplarColumn" msprop:Generator_UserColumnName="Ejemplar" type="xs:string" minOccurs="0" />
+              <xs:element name="IdLibro" msprop:Generator_ColumnVarNameInTable="columnIdLibro" msprop:Generator_ColumnPropNameInRow="IdLibro" msprop:Generator_ColumnPropNameInTable="IdLibroColumn" msprop:Generator_UserColumnName="IdLibro" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DtDatosAlumno" msprop:Generator_TableClassName="DtDatosAlumnoDataTable" msprop:Generator_TableVarName="tableDtDatosAlumno" msprop:Generator_TablePropName="DtDatosAlumno" msprop:Generator_RowDeletingName="DtDatosAlumnoRowDeleting" msprop:Generator_RowChangingName="DtDatosAlumnoRowChanging" msprop:Generator_RowEvHandlerName="DtDatosAlumnoRowChangeEventHandler" msprop:Generator_RowDeletedName="DtDatosAlumnoRowDeleted" msprop:Generator_UserTableName="DtDatosAlumno" msprop:Generator_RowChangedName="DtDatosAlumnoRowChanged" msprop:Generator_RowEvArgName="DtDatosAlumnoRowChangeEvent" msprop:Generator_RowClassName="DtDatosAlumnoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Matricula" msprop:Generator_ColumnVarNameInTable="columnMatricula" msprop:Generator_ColumnPropNameInRow="Matricula" msprop:Generator_ColumnPropNameInTable="MatriculaColumn" msprop:Generator_UserColumnName="Matricula" type="xs:string" minOccurs="0" />
+              <xs:element name="Anho" msprop:Generator_ColumnVarNameInTable="columnAnho" msprop:Generator_ColumnPropNameInRow="Anho" msprop:Generator_ColumnPropNameInTable="AnhoColumn" msprop:Generator_UserColumnName="Anho" type="xs:int" minOccurs="0" />
+              <xs:element name="IdAlumno" msprop:Generator_ColumnVarNameInTable="columnIdAlumno" msprop:Generator_ColumnPropNameInRow="IdAlumno" msprop:Generator_ColumnPropNameInTable="IdAlumnoColumn" msprop:Generator_UserColumnName="IdAlumno" type="xs:int" />
+              <xs:element name="Grado" msprop:Generator_ColumnVarNameInTable="columnGrado" msprop:Generator_ColumnPropNameInRow="Grado" msprop:Generator_ColumnPropNameInTable="GradoColumn" msprop:Generator_UserColumnName="Grado" type="xs:string" minOccurs="0" />
+              <xs:element name="IdGrado" msprop:Generator_ColumnVarNameInTable="columnIdGrado" msprop:Generator_ColumnPropNameInRow="IdGrado" msprop:Generator_ColumnPropNameInTable="IdGradoColumn" msprop:Generator_UserColumnName="IdGrado" type="xs:string" minOccurs="0" />
+              <xs:element name="Nombre" msprop:Generator_ColumnVarNameInTable="columnNombre" msprop:Generator_ColumnPropNameInRow="Nombre" msprop:Generator_ColumnPropNameInTable="NombreColumn" msprop:Generator_UserColumnName="Nombre" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DtComboLibros" msprop:Generator_TableClassName="DtComboLibrosDataTable" msprop:Generator_TableVarName="tableDtComboLibros" msprop:Generator_TablePropName="DtComboLibros" msprop:Generator_RowDeletingName="DtComboLibrosRowDeleting" msprop:Generator_RowChangingName="DtComboLibrosRowChanging" msprop:Generator_RowEvHandlerName="DtComboLibrosRowChangeEventHandler" msprop:Generator_RowDeletedName="DtComboLibrosRowDeleted" msprop:Generator_UserTableName="DtComboLibros" msprop:Generator_RowChangedName="DtComboLibrosRowChanged" msprop:Generator_RowEvArgName="DtComboLibrosRowChangeEvent" msprop:Generator_RowClassName="DtComboLibrosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdLibro" msdata:Caption="IdAlumno" msprop:Generator_ColumnVarNameInTable="columnIdLibro" msprop:Generator_ColumnPropNameInRow="IdLibro" msprop:Generator_ColumnPropNameInTable="IdLibroColumn" msprop:Generator_UserColumnName="IdLibro" type="xs:int" minOccurs="0" />
+              <xs:element name="ISBN" msprop:Generator_ColumnVarNameInTable="columnISBN" msprop:Generator_ColumnPropNameInRow="ISBN" msprop:Generator_ColumnPropNameInTable="ISBNColumn" msprop:Generator_UserColumnName="ISBN" type="xs:string" minOccurs="0" />
+              <xs:element name="Titulo" msprop:Generator_ColumnVarNameInTable="columnTitulo" msprop:Generator_ColumnPropNameInRow="Titulo" msprop:Generator_ColumnPropNameInTable="TituloColumn" msprop:Generator_UserColumnName="Titulo" type="xs:string" minOccurs="0" />
+              <xs:element name="IdGrado" msprop:Generator_ColumnVarNameInTable="columnIdGrado" msprop:Generator_ColumnPropNameInRow="IdGrado" msprop:Generator_ColumnPropNameInTable="IdGradoColumn" msprop:Generator_UserColumnName="IdGrado" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DtDatosAlumno" />
+      <xs:field xpath="mstns:IdAlumno" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="DtComboLibros_DtDatosAlumno" msdata:parent="DtComboLibros" msdata:child="DtDatosAlumno" msdata:parentkey="IdGrado" msdata:childkey="IdGrado" msprop:Generator_UserChildTable="DtDatosAlumno" msprop:Generator_ChildPropName="GetDtDatosAlumnoRows" msprop:Generator_UserRelationName="DtComboLibros_DtDatosAlumno" msprop:Generator_RelationVarName="relationDtComboLibros_DtDatosAlumno" msprop:Generator_UserParentTable="DtComboLibros" msprop:Generator_ParentPropName="DtComboLibrosRow" />
+      <msdata:Relationship name="DtMovLibro_DtDatosAlumno" msdata:parent="DtDatosAlumno" msdata:child="DtMovLibro" msdata:parentkey="IdAlumno" msdata:childkey="IdAlumno" msprop:Generator_UserChildTable="DtMovLibro" msprop:Generator_ChildPropName="GetDtMovLibroRows" msprop:Generator_UserRelationName="DtMovLibro_DtDatosAlumno" msprop:Generator_RelationVarName="relationDtMovLibro_DtDatosAlumno" msprop:Generator_UserParentTable="DtDatosAlumno" msprop:Generator_ParentPropName="DtDatosAlumnoRow" />
+      <msdata:Relationship name="DtComboLibros_DtMovLibro" msdata:parent="DtComboLibros" msdata:child="DtMovLibro" msdata:parentkey="IdLibro" msdata:childkey="IdLibro" msprop:Generator_UserChildTable="DtMovLibro" msprop:Generator_ChildPropName="GetDtMovLibroRows" msprop:Generator_UserRelationName="DtComboLibros_DtMovLibro" msprop:Generator_RelationVarName="relationDtComboLibros_DtMovLibro" msprop:Generator_UserParentTable="DtComboLibros" msprop:Generator_ParentPropName="DtComboLibrosRow" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>
